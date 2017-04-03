@@ -6,8 +6,7 @@ Installs OpenVPN server and automatically generates a single-user OpenVPN connec
 1. Create a Lightsail VPS Instance
  - Choose "OS Only"
   - Amazon Linux
- - Click on "add launch script"
-  -
+ - Click on "add launch script" and paste the following setup code
 ```bash
 ## Update server packages
 yum -y update
