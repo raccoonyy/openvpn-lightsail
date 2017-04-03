@@ -15,5 +15,3 @@ wget https://git.io/vSBah -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
 Based on openvpn-install
-
-curl -i https://git.io -F "url=https://raw.githubusercontent.com/essell/openvpn-lightsail/master/openvpn-install.sh" -F "code=lightsail-vpn"
