@@ -11,7 +11,9 @@ Installs OpenVPN server and automatically generates a single-user OpenVPN connec
 ## Update server packages
 yum -y update
 # Install OpenVPN
-wget https://git.io/lightsail-vpn -O openvpn-install.sh && bash openvpn-install.sh
+wget https://git.io/vSBah -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
 Based on openvpn-install
+
+curl -i https://git.io -F "url=https://raw.githubusercontent.com/essell/openvpn-lightsail/master/openvpn-install.sh" -F "code=lightsail-vpn"
