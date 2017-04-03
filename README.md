@@ -7,7 +7,10 @@ Installs OpenVPN server and automatically generates a single-user OpenVPN connec
  - Choose "OS Only"
   - Amazon Linux
  - Click on "add launch script"
-  - ```bash
-  wget http://domain.com/openvpn-lightsail.sh && bash openvpn-lightsail.sh
+  - `
+## Update server packages
+yum -y update
+# Install OpenVPN
+wget https://git.io/lightsail-vpn -O openvpn-install.sh && bash openvpn-install.sh`
 
 Based on openvpn-install
